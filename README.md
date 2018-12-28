@@ -2,7 +2,11 @@
 
 An online version of BERT for AI Network Demo (http://cloud.ainetwork.ai).
 
-## How To Run
+## How to run on AI Network Demo
+
+TBD
+
+## How to run using commandlines
 
 It can be run in Docker environment using the commandlines below:
 
@@ -76,30 +80,7 @@ docker run -v $PWD/bert_online:/bert/bert_online \
   --n_best_size=3
 ```
 
-## How To Build 
-
-Docker images can be built using the commandlines below:
-
-### Build bert-online docker image (for CPU machine):
-
-```bash
-docker build -t bert-online .
-docker tag bert-online:latest comcomai/bert-online:1.0.0
-docker push comcomai/bert-online:1.0.0
-docker pull comcomai/bert-online:1.0.0
-```
-
-### Build bert-online-gpu docker image (for GPU machine):
-
-```bash
-vi Dockerfile  # Change tensorflow/tensorflow:1.12.0-rc2 to tensorflow/tensorflow:1.12.0-rc2-gpu 
-docker build -t bert-online-gpu .
-docker tag bert-online:latest comcomai/bert-online:1.0.0-gpu
-docker push comcomai/bert-online:1.0.0-gpu
-docker pull comcomai/bert-online:1.0.0-gpu
-```
-
-## How To Train 
+## How to train BERT models
 
 BERT models can be trained using the commandlines below.
 
@@ -141,4 +122,27 @@ docker run -v  $PWD:/bert \
   --max_seq_length=320 \
   --doc_stride=128 \
   --output_dir=$DOCKER_OUTPUT_DIR 
+```
+
+## How to build Docker images
+
+Docker images can be built using the commandlines below:
+
+### Build bert-online docker image (for CPU machine):
+
+```bash
+docker build -t bert-online .
+docker tag bert-online:latest comcomai/bert-online:1.0.0
+docker push comcomai/bert-online:1.0.0
+docker pull comcomai/bert-online:1.0.0
+```
+
+### Build bert-online-gpu docker image (for GPU machine):
+
+```bash
+vi Dockerfile  # Change tensorflow/tensorflow:1.12.0-rc2 to tensorflow/tensorflow:1.12.0-rc2-gpu 
+docker build -t bert-online-gpu .
+docker tag bert-online:latest comcomai/bert-online:1.0.0-gpu
+docker push comcomai/bert-online:1.0.0-gpu
+docker pull comcomai/bert-online:1.0.0-gpu
 ```
