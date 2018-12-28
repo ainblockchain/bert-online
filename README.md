@@ -12,7 +12,7 @@ It can be run in Docker environment using the commandlines below:
 DOCKER_BERT_DIR=/bert
 TF_CPP_MIN_LOG_LEVEL=2
 
-docker run -v /Users/seo/git/comcomai/ain/bert:/bert \
+docker run -v $PWD:/bert \
   -w /bert \
   --env PYTHONPATH=/bert \
   --rm tensorflow/tensorflow \
@@ -28,7 +28,7 @@ docker run -v /Users/seo/git/comcomai/ain/bert:/bert \
 ### Run w/ bert-online docker image (on CPU machine): 
 
 ```bash
-docker run -v /Users/seo/git/comcomai/ain/bert/bert_online:/bert/bert_online \
+docker run -v $PWD/bert_online:/bert/bert_online \
   -w /bert \
   --env PYTHONPATH=/bert \
   -t --rm comcomai/bert-online:1.0.0 \
@@ -46,7 +46,7 @@ docker run -v /Users/seo/git/comcomai/ain/bert/bert_online:/bert/bert_online \
 ```bash
 DOCKER_BERT_DIR=/bert
 
-docker run -v /home/seo/git/comcomai/ain/bert:/bert \
+docker run -v $PWD:/bert \
   -w /bert \
   --env PYTHONPATH=/bert \
   --runtime=nvidia --rm tensorflow/tensorflow:1.12.0-rc2-gpu \
@@ -63,7 +63,7 @@ docker run -v /home/seo/git/comcomai/ain/bert:/bert \
 ### Run w/ bert-online-gpu docker image (on GPU machine): 
 
 ```bash
-docker run -v /home/seo/git/comcomai/ain/bert/bert_online:/bert/bert_online \
+docker run -v $PWD/bert_online:/bert/bert_online \
   -w /bert \
   --env PYTHONPATH=/bert \
   --runtime=nvidia -t --rm comcomai/bert-online:1.0.0-gpu \
@@ -124,7 +124,7 @@ DOCKER_BERT_BASE_DIR=/bert/model_base_cased
 DOCKER_SQUAD_DIR=/bert/squad1.1
 DOCKER_OUTPUT_DIR=/bert/squad1.1-output
 
-docker run -v  /home/seo/git/comcomai/ain/bert:/bert \
+docker run -v  $PWD:/bert \
   -w /bert \
   --runtime=nvidia --rm tensorflow/tensorflow:latest-gpu \
   python /bert/bert/run_squad.py \
