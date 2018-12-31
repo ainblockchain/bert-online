@@ -1,6 +1,6 @@
 # bert-online
 
-An online version of BERT for AI Network Demo (http://cloud.ainetwork.ai).
+An online version of BERT for AI Network Demo.
 
 ## How to run on AI Network Demo
 
