@@ -1,6 +1,6 @@
 # bert-online
 
-An online version of BERT for AI Network Demo.
+An online version of [`BERT`](https://arxiv.org/abs/1810.04805) for AI Network Demo.
 
 ## How to run on AI Network Demo
 
@@ -8,7 +8,7 @@ TBD
 
 ## How to run using commandlines
 
-It can be run in Docker environment using the commandlines below:
+It can be run in [`Docker`](https://docs.docker.com/) environment using the commandlines below:
 
 ### Run w/ tensorflow docker image (on CPU machine): 
 
@@ -84,19 +84,22 @@ docker run -v $PWD/bert_online:/bert/bert_online \
 
 BERT models can be trained using the commandlines below.
 
-For more details, please refer to BERT github (https://github.com/google-research/bert). 
+For more details, please refer to [`BERT GitHub README`](https://github.com/google-research/bert/blob/master/README.md). 
 
 ### Download pre-trained model
 
-Download <BERT-Base, Cased> model files and put them under model_base_cased directory. 
+Download [`BERT-Base, Cased`](https://storage.googleapis.com/bert_models/2018_10_18/cased_L-12_H-768_A-12.zip) model files and put them under model_base_cased directory. 
 
 ### Download SQuAD files
 
-Download SQuAD1.1 files and put them under squad1.1 directory.
+Download SQuAD1.1 files and put them under squad1.1 directory:
+*   [train-v1.1.json](https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v1.1.json)
+*   [dev-v1.1.json](https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v1.1.json)
+*   [evaluate-v1.1.py](https://github.com/allenai/bi-att-flow/blob/master/squad/evaluate-v1.1.py)
 
 ### Download BERT code
 
-Download BERT source code and put them under bert directory.
+Download [`BERT`](https://github.com/google-research/bert) source code and put them under bert directory.
 
 ### Train BERT model (on GPU machine):
 
