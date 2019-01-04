@@ -1,6 +1,6 @@
 # bert-online
 
-An online version of [`BERT`](https://arxiv.org/abs/1810.04805) for AI Network Demo.
+An online version of [`BERT`](https://arxiv.org/abs/1810.04805) for AI Network Demo. See [`github.com/google-research/bert`](https://github.com/google-research/bert) for the full context of BERT.
 
 ## How to run on AI Network Demo
 
@@ -8,7 +8,7 @@ TBD
 
 ## How to run using commandlines
 
-It can be run in [`Docker`](https://docs.docker.com/) environment using the commandlines below:
+It can be run in [`Docker`](https://docs.docker.com/) containers using the commandlines below:
 
 ### Run w/ tensorflow docker image (on CPU machine): 
 
