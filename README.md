@@ -1,10 +1,10 @@
 # bert-online
 
-An online version of [`BERT`](https://arxiv.org/abs/1810.04805) for AI Network Demo. See [`github.com/google-research/bert`](https://github.com/google-research/bert) for the full context of BERT.
+An online version of [`BERT`](https://arxiv.org/abs/1810.04805) for [`AI Network`](https://ainetwork.ai/). The source code is originated in [`github.com/google-research/bert`](https://github.com/google-research/bert) and was modified for our purpose of the use. For the full context of the code, see the original code.
 
-## How to run on AI Network
+## How to run on [`AIN Cloud Beta`](https://cloud.ainetwork.ai/)
 
-*See [`AIN.md`](https://github.com/ainblockchain/bert-online/blob/master/AIN.md) to run the code on [`AI Network`](https://ainetwork.ai/).*
+*See [`AIN.md`](https://github.com/ainblockchain/bert-online/blob/master/AIN.md) for a guide to play with the code on [`AIN Cloud Beta`](https://cloud.ainetwork.ai/).*
 
 ## How to run using commandlines
 
@@ -151,3 +151,19 @@ docker tag bert-online:latest comcomai/bert-online:1.0.0-gpu
 docker push comcomai/bert-online:1.0.0-gpu
 docker pull comcomai/bert-online:1.0.0-gpu
 ```
+
+## License
+
+Copyright 2018 Common Computer Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
