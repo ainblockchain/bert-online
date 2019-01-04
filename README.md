@@ -2,9 +2,9 @@
 
 An online version of [`BERT`](https://arxiv.org/abs/1810.04805) for AI Network Demo. See [`github.com/google-research/bert`](https://github.com/google-research/bert) for the full context of BERT.
 
-## How to run on AI Network Demo
+## How to run on AI Network
 
-See [`AIN.md`](https://github.com/ainblockchain/bert-online) for running the code on [`AI Network Demo`](https://cloud.ainetwork.ai/).
+*See [`AIN.md`](https://github.com/ainblockchain/bert-online/blob/master/AIN.md) to run the code on [`AI Network`](https://ainetwork.ai/).*
 
 ## How to run using commandlines
 
