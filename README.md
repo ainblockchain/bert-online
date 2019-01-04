@@ -12,6 +12,7 @@ It can be run in [`Docker`](https://docs.docker.com/) containers using the comma
 
 ### Run w/ tensorflow docker image (on CPU machine): 
 
+NOTE: You need to train the model first before using the commandline below (See [`How to train BERT models`](https://github.com/ainblockchain/bert-online#how-to-train-bert-models)).
 ```bash
 DOCKER_BERT_DIR=/bert
 TF_CPP_MIN_LOG_LEVEL=2
@@ -47,6 +48,7 @@ docker run -v $PWD/bert_online:/bert/bert_online \
 
 ### Run w/ tensorflow-gpu docker image (on GPU machine): 
 
+NOTE: You need to train the model first before using the commandline below (See [`How to train BERT models`](https://github.com/ainblockchain/bert-online#how-to-train-bert-models)).
 ```bash
 DOCKER_BERT_DIR=/bert
 
