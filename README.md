@@ -4,7 +4,7 @@ An online version of [`BERT`](https://arxiv.org/abs/1810.04805) for AI Network D
 
 ## How to run on AI Network Demo
 
-TBD
+See [`AIN.md`](https://github.com/ainblockchain/bert-online) for running the code on [`AI Network Demo`](https://cloud.ainetwork.ai/).
 
 ## How to run using commandlines
 
