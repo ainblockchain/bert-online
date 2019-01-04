@@ -1,8 +1,8 @@
 {
-  "name": "BERT",
-  "sample": true,
+  "name": "BERT Online (on Tensorflow)",
+  "listed": true,
   "link": "https://github.com/ainblockchain/bert-online",
-  "readme": "README.md",
+  "readme": "AIN.md",
   "branch": "master",
   "entry": "bert_online/run_squad_online.py",
   "docker": {
