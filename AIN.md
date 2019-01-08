@@ -49,3 +49,59 @@ Currently, *model training* using run_squad_online.py is not supported in AIN Cl
 ```
 
 Note that "context" and "qas" correspond to the reading passages and the questions, respectively.
+
+The output includes prediction results and n-best predictions results:
+
+```bash
+{
+    "571a484210f8ca1400304fbd / The atomic number of the periodic table for oxygen?": "8", 
+    "571a484210f8ca1400304fbe / What is the second most abundant element?": "hydrogen and helium", 
+    "571a484210f8ca1400304fc0 / How many atoms combine to form dioxygen?": "two atoms", 
+    "571a484210f8ca1400304fc1 / Roughly, how much oxygen makes up the Earth crust?": "almost half", 
+    "571a484210f8ca1400304fbf / Which gas makes up 20.8% of the Earth's atmosphere?": "Diatomic oxygen gas"
+}
+
+{
+    "571a484210f8ca1400304fbd / The atomic number of the periodic table for oxygen?": [
+        {
+            "text": "8", 
+            "probability": 0.9950033489706708, 
+            "start_logit": 6.187430381774902, 
+            "end_logit": 7.058764457702637
+        }, 
+        {
+            "text": "atomic number 8", 
+            "probability": 0.0033263751209656753, 
+            "start_logit": 0.4865674376487732, 
+            "end_logit": 7.058764457702637
+        }, 
+        {
+            "text": "8.", 
+            "probability": 0.001670275908363632, 
+            "start_logit": 6.187430381774902, 
+            "end_logit": 0.6690071821212769
+        }
+    ], 
+    "571a484210f8ca1400304fbe / What is the second most abundant element?": [
+        {
+            "text": "hydrogen and helium", 
+            "probability": 0.5357586629405354, 
+            "start_logit": 4.084998607635498, 
+            "end_logit": 5.108847618103027
+        }, 
+        {
+            "text": "oxygen is the third-most abundant element in the universe, after hydrogen and helium", 
+            "probability": 0.31384171238266906, 
+            "start_logit": 3.550203561782837, 
+            "end_logit": 5.108847618103027
+        }, 
+        {
+            "text": "oxygen", 
+            "probability": 0.15039962467679546, 
+            "start_logit": 3.550203561782837, 
+            "end_logit": 4.373254776000977
+        }
+    ], 
+  ...
+}
+```
