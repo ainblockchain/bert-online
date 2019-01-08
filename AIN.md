@@ -1,6 +1,6 @@
 # bert-online on AIN
 
-You can run **bert-online** on [`AIN Cloud Beta`](https://cloud.ainetwork.ai/), which is a product provided by [`AI Network`](https://ainetwork.ai/).
+You can run **bert-online** code on [`AIN Cloud Beta`](https://cloud.ainetwork.ai/), which is a product provided by [`AI Network`](https://ainetwork.ai/).
 
 ## How to get ready to use AIN Cloud Beta
 
@@ -18,7 +18,10 @@ Currently bert-online only provides code for SQuAD task.
 
 ### run_squad_online.py
 
-Currently, *model training* using run_squad_online.py is not supported in AIN Cloud Beta as it takes relative long time. What you can do is to try to modify the input part of the source code and see if it gives correct answers:
+Currently, *model training* using run_squad_online.py is not supported in AIN Cloud Beta as it takes relative long time.
+Try to run the code by pressing the "Run" button [`AIN Cloud Beta`](https://cloud.ainetwork.ai/)
+and see if it gives correct answers.
+In particular, try to run the code with your own input by modifying the input part of the source code:
 
 ```bash
   example = {
@@ -48,7 +51,7 @@ Currently, *model training* using run_squad_online.py is not supported in AIN Cl
   }
 ```
 
-Note that "context" and "qas" correspond to the reading passages and the questions, respectively.
+Note that "context" and "qas" in the input correspond to the reading passages and the questions, respectively.
 
 The output includes prediction results and n-best predictions results:
 
