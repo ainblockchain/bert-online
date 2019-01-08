@@ -1,10 +1,10 @@
 # bert-online
 
-An online version of [`BERT`](https://arxiv.org/abs/1810.04805) for [`AI Network`](https://ainetwork.ai/). The source code is originated in [`github.com/google-research/bert`](https://github.com/google-research/bert) and was modified for our purpose of the use. For the full context of the code, see the original code.
+An online version of [`BERT`](https://arxiv.org/abs/1810.04805) for [`AI Network`](https://ainetwork.ai/). The source code is originated in [`github.com/google-research/bert`](https://github.com/google-research/bert) and was modified for our purpose. For the full context of the code, see the original code.
 
 ## How to run on [`AIN Cloud Beta`](https://cloud.ainetwork.ai/)
 
-*See [`AIN.md`](https://github.com/ainblockchain/bert-online/blob/master/AIN.md) for a guide to play with the code on [`AIN Cloud Beta`](https://cloud.ainetwork.ai/).*
+*See [`AIN.md`](https://github.com/ainblockchain/bert-online/blob/master/AIN.md) for a guide to play with the code on [`AIN Cloud Beta`](https://cloud.ainetwork.ai/), which is a product provided by [`AI Network`](https://ainetwork.ai/).*
 
 ## How to run using commandlines
 
