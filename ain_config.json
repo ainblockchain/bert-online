@@ -5,8 +5,12 @@
   "readme": "AIN.md",
   "branch": "master",
   "entry": "bert_online/run_squad_online.py",
-  "docker": {
-    "name": "comcomai/bert-online:1.0.0",
-    "type": "bert"
+  "executor": {
+    "type": "exec_server",
+    "exec_server_params": {
+      "docker": {
+        "image": "comcomai/bert-online:1.0.0"
+      }
+    }
   }
 }
