@@ -1,14 +1,14 @@
 # bert-online on AIN
 
-You can run **bert-online** code on [`AIN Cloud Beta`](https://cloud.ainetwork.ai/), which is a product provided by [`AI Network`](https://ainetwork.ai/).
+You can run **bert-online** code on [`AIN Cloud beta`](https://cloud.ainetwork.ai/), which is a product provided by [`AI Network`](https://ainetwork.ai/).
 
-## How to get ready to use AIN Cloud Beta
+## How to get ready to use AIN Cloud beta
 
-The payment in [`AIN Cloud Beta`](https://cloud.ainetwork.ai/) is based on AIN Ethereum Token (Token Symbol: *AIN*), so you need to prepare some account balance before getting started.
-Fortunately, AIN Cloud Beta provides welcome bonus for new users. Please refer to *AIN Cloud Beta Guide (coming soon)* for the details.
+The payment in [`AIN Cloud beta`](https://cloud.ainetwork.ai/) is based on AIN Ethereum Token (Token Symbol: *AIN*), so you need to prepare some account balance before getting started.
+Fortunately, AIN Cloud beta provides welcome bonus for new users. Please refer to *AIN Cloud beta Guide (coming soon)* for the details.
 In summary, 1) sign up on [`cloud.ainetwork.ai/`](https://cloud.ainetwork.ai/) and finish the email verification step to get sign-up bonus (~ 150 AIN) and 2) complete KYC process on [`cloud.ainetwork.ai/buyain`](https://cloud.ainetwork.ai/buyain) to get extra bonus (~ 150 AIN).
 
-## How to play with bert-online on AIN Cloud Beta
+## How to play with bert-online on AIN Cloud beta
 
 Currently bert-online only provides code for SQuAD task. 
 
@@ -18,8 +18,8 @@ Currently bert-online only provides code for SQuAD task.
 
 ### run_squad_online.py
 
-Currently, *model training* using run_squad_online.py is not supported in AIN Cloud Beta as it takes relatively long time.
-Try to run the code by pressing the "Run" button [`AIN Cloud Beta`](https://cloud.ainetwork.ai/)
+Currently, *model training* using run_squad_online.py is not supported in AIN Cloud beta as it takes relatively long time.
+Try to run the code by pressing the "Run" button [`AIN Cloud beta`](https://cloud.ainetwork.ai/)
 and see if it gives correct answers.
 In particular, try to run the code with your own input by modifying the input part of the source code:
 
