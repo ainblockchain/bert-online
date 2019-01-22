@@ -12,7 +12,7 @@
         "image": "comcomai/bert-online:1.0.0",
         "workDir": "/bert",
         "pythonPath": "/bert",
-        "pythonVersion": "3.6"
+        "pythonVersion": "2.7"
       },
       "execParams": "--vocab_file=/bert/model_base_cased/vocab.txt  --bert_config_file=/bert/model_base_cased/bert_config.json  --init_checkpoint=/bert/squad1.1-output-train_2/model.ckpt-14599  --max_seq_length=320  --doc_stride=128  --n_best_size=3"
     }
