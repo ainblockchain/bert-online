@@ -19,7 +19,7 @@ Currently bert-online only provides code for SQuAD task.
 ### run_squad_online.py
 
 Currently, *model training* using run_squad_online.py is not supported in AIN Cloud beta as it takes relatively long time.
-Try to run the code by pressing the "Run" button [`AIN Cloud beta`](https://cloud.ainetwork.ai/)
+Try to run the code by pressing the "Run" button on [`AIN Cloud beta`](https://cloud.ainetwork.ai/)
 and see if it gives correct answers.
 In particular, try to run the code with your own input by modifying the input part of the source code:
 
