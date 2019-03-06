@@ -9,7 +9,7 @@
     "type": "exec_server",
     "execServerParams": {
       "docker": {
-        "image": "comcomai/bert-online:1.0.0",
+        "image": "ainblockchain/bert-online:1.0.0",
         "workDir": "/bert",
         "pythonPath": "/bert",
         "pythonVersion": "2.7"
